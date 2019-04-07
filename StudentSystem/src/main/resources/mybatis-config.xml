@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<!-- <settings>
+		<setting name="lazyLoadingEnabled" value="false" />
+	</settings> -->
+
+	<!--配置别名 -->
+	<typeAliases>
+		<!-- 类名首字母变为小写 -->
+		<package name="com.entity" />
+	</typeAliases>
+
+	<!-- 使用自动扫描生成时，加载映射文件可以不需要 -->
+	<!-- <mappers> -->
+	<!-- <mapper resource="mybatis_spring/dao/RoleMapper.xml" /> -->
+	<!-- </mappers> -->
+</configuration>
